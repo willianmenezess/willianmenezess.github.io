@@ -1,0 +1,43 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color:darkgrey;
+}
+
+h4 {
+    background-color: white;
+}
+
+#descricao {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lista-tamanho1 {
+    font-size: 20px;
+}
+
+.lista-tamanho2 {
+    font-size: 19px;
+}
+
+.lista-tamanho3 {
+    font-size: 18px;
+}
+
+.lista-tamanho4 {
+    font-size: 17px;
+}
+
+.lista-tamanho5 {
+    font-size: 16px;
+}
+
+#foto_will {
+    border-radius: 20%;
+}
+
+#linha_secao {
+    color:red;
+}
