@@ -34,8 +34,25 @@ h4 {
     font-size: 16px;
 }
 
+.nome-will {
+    text-align: center;
+}
+
+
 #foto_will {
     border-radius: 20%;
+    float: left;
+    height: 250px;
+}
+
+.image-container {
+    height: 250px;
+}
+
+
+
+div {
+    border: 2px solid red;
 }
 
 
