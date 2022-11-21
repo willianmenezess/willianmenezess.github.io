@@ -1,17 +1,28 @@
 h1 {
     font-family: 'Times New Roman', Times, serif;
+    color:gainsboro;
 }
 
 body {
-    background-color:darkgrey;
+    background-color:rgb(12, 9, 15);
 }
 
 h4 {
-    background-color: white;
+    
+    border-bottom: 1px solid gainsboro;
+    color:gainsboro;
+}
+
+p, li {
+    color:gainsboro;
 }
 
 #descricao {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px; 
+    position: absolute;
+    width: 70%;
+    left: 250px;
 }
 
 .lista-tamanho1 {
@@ -44,7 +55,7 @@ h4 {
     float: left;
     height: 226px;
     padding: 12px;
-    background-color: black ;
+    background-color: gainsboro ;
 }
 
 .image-container {
@@ -52,9 +63,24 @@ h4 {
 }
 
 
-
-div {
-    border: 2px solid red;
+ul.lista-habilidades li:hover {
+    background-color: black;
+    border: 1px solid gainsboro;
 }
 
+ul:nth-of-type(1) li:hover {
+    background-color: black;
+    border: 1px solid gainsboro;
+}
 
+ul:nth-of-type(3) li:hover {
+    background-color: black;
+    border: 1px solid gainsboro;
+}
+
+ul.lista-habilidades li:nth-child(odd) {
+    font-size: x-large;
+}
+/*div {
+    border: 2px solid red;
+} */
